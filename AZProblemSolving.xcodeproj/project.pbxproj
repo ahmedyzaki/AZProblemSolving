@@ -14,6 +14,8 @@
 		88041BCC275D594200C42CB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88041BCB275D594200C42CB6 /* Assets.xcassets */; };
 		88041BCF275D594200C42CB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88041BCD275D594200C42CB6 /* LaunchScreen.storyboard */; };
 		88041BF7275D5A7800C42CB6 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88041BF6275D5A7800C42CB6 /* TwoSum.swift */; };
+		888CFFD9275E0BD5003CA084 /* Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888CFFD8275E0BD5003CA084 /* Palindrome.swift */; };
+		888CFFDD275E0C39003CA084 /* TwoSumReadMe.md in Sources */ = {isa = PBXBuildFile; fileRef = 888CFFDC275E0C39003CA084 /* TwoSumReadMe.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,8 @@
 		88041BD0275D594200C42CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88041BD5275D594200C42CB6 /* AZProblemSolvingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AZProblemSolvingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88041BF6275D5A7800C42CB6 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
+		888CFFD8275E0BD5003CA084 /* Palindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palindrome.swift; sourceTree = "<group>"; };
+		888CFFDC275E0C39003CA084 /* TwoSumReadMe.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TwoSumReadMe.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +104,27 @@
 		88041BF2275D5A2200C42CB6 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
-				88041BF6275D5A7800C42CB6 /* TwoSum.swift */,
+				888CFFDA275E0C15003CA084 /* TwoSum */,
+				888CFFDB275E0C1F003CA084 /* Palindrome */,
 			);
 			path = LeetCode;
+			sourceTree = "<group>";
+		};
+		888CFFDA275E0C15003CA084 /* TwoSum */ = {
+			isa = PBXGroup;
+			children = (
+				88041BF6275D5A7800C42CB6 /* TwoSum.swift */,
+				888CFFDC275E0C39003CA084 /* TwoSumReadMe.md */,
+			);
+			path = TwoSum;
+			sourceTree = "<group>";
+		};
+		888CFFDB275E0C1F003CA084 /* Palindrome */ = {
+			isa = PBXGroup;
+			children = (
+				888CFFD8275E0BD5003CA084 /* Palindrome.swift */,
+			);
+			path = Palindrome;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,7 +239,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				888CFFDD275E0C39003CA084 /* TwoSumReadMe.md in Sources */,
 				88041BF7275D5A7800C42CB6 /* TwoSum.swift in Sources */,
+				888CFFD9275E0BD5003CA084 /* Palindrome.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
